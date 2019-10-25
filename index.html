@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Seznam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="container">
+	<p>
+		<label for="new-task">Přidat úkoly</label>
+		<input id="new-task" type="text" placeholder="Úkoly">
+		<button id="add-task"><i class="fa fa-fw fa-plus"></i></button>  
+	</p>
+
+	<h3>Úkoly</h3>
+	<ul id="incomplete-tasks">
+		<li>
+			<input type="checkbox"><label>Nastavit sítě</label><input type="text">
+			<button class="edit">Upravit</button>
+			<button class="delete">Smazat</button>
+		</li>
+	</ul>
+
+	<h3>Hotové</h3>
+	<ul id="completed-tasks">
+		<li>
+			<input type="checkbox"><label>Naprogramovat projekt</label><input type="text">
+			<button class="edit">Upravit</button>
+			<button class="delete">Smazat</button>
+		</li>
+	</ul>
+</div>
+
+<script src="demo.js"></script>
+ 
+</body>
+</html>
