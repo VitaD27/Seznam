@@ -1,5 +1,5 @@
 body {
-    background: #2db7bb;
+    background: #2d83bb;
     color: #333;
     font-family: Lato, sans-serif; 
 }
@@ -117,7 +117,7 @@ li > .delete:hover {
 /* Completed */
 #completed-tasks label {
     text-decoration: line-through;
-    color: #888;
+    color: #21c15e;
 }
 
 /* Edit Task */
